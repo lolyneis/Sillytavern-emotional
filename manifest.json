@@ -1,9 +1,12 @@
 {
-  "display_name": "Emotional Core",
-  "loading_order": 0,
-  "js": "index.js",
-  "css": "style.css",
-  "author": "You",
-  "version": "1.0",
-  "description": "Глубокие эмоции, травмы, привязанность и реалистичные реакции для персонажей"
+  "name": "Emotional Core",
+  "version": "1.0.0",
+  "author": "YourName",
+  "description": "Расширенное управление эмоциями персонажей: привязанность, травмы, триггеры. Улучшает промпты и чат реалистичными реакциями.",
+  "main": "index.js",
+  "type": "user",
+  "icon": "❤️",
+  "api": "1.0.0",
+  "features": ["chat_enhance", "prompt_modify", "ui_extension"],
+  "permissions": ["extension_settings", "character_data"]
 }
