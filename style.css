@@ -1,0 +1,75 @@
+.emotional-core-btn {
+  cursor: pointer;
+  color: #e91e63 !important;
+  font-size: 18px;
+  margin-left: 8px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  transition: all 0.2s;
+  display: inline-block;
+}
+
+.emotional-core-btn:hover {
+  background: rgba(233, 30, 99, 0.1);
+  transform: scale(1.1);
+}
+
+.emotional-core-panel {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  width: 520px;
+  max-height: 85vh;
+  overflow-y: auto;
+  z-index: 99999;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  font-family: sans-serif;
+}
+
+.emotional-core-panel h3 {
+  margin-top: 0;
+  color: #e91e63;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.emotional-core-panel label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: bold;
+  color: #333;
+}
+
+.emotional-core-panel input,
+.emotional-core-panel select,
+.emotional-core-panel textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.emotional-core-panel button {
+  margin: 15px 8px 0 0;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.emotional-core-panel button:first-of-type {
+  background: #e91e63;
+  color: white;
+}
+
+.emotional-core-panel button:last-of-type {
+  background: #eee;
+  color: #333;
+}
